@@ -1,0 +1,47 @@
+.hero{
+    height: 90vh;
+    background: linear-gradient(180deg, #e1ffea22,  #fde1ff , #e1ffea22 90%);
+    /* background: linear-gradient(180deg, #fde1ff , #e1ffea , #fde1ff); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.h2-hero{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+ 
+}
+
+.fa-arrow-right{
+    padding-left: 10px;
+}
+
+.h11{
+    font-size: 60px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+} 
+
+.h11 img{
+    width: 55px;
+    height: auto;
+}
+
+.hand{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

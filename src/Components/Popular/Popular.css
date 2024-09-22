@@ -1,0 +1,21 @@
+.popular1{
+    padding: 20px;
+}
+
+.popular2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding-bottom: 20px;
+   
+    
+}
+
+.popular3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 30px;
+}
+

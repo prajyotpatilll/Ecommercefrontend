@@ -1,0 +1,21 @@
+
+
+.offres{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+    padding: 20px 100px 20px 100px;
+    background: linear-gradient(180deg, #e1ffea22,  #fde1ff , #e1ffea22 90%);
+    
+}
+
+.offers-left{
+    font-size: 35px;
+    font-weight: 900;
+    
+}
+
+.offres p{
+    font-size: 25px;
+}
