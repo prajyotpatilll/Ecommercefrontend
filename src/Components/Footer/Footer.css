@@ -1,0 +1,78 @@
+/* Footer.css */
+.footer {
+    background: linear-gradient(180deg, #e1ffea22,  #fde1ff , #e1ffea22 90%);
+    color: #fff; /* White text */
+    padding: 40px 20px; /* Spacing for the footer */
+    text-align: center;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo img {
+    width: 50px; /* Size of the logo */
+    margin-right: 10px; /* Space between logo and text */
+  }
+  
+  .footer-logo p {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .footer-link {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .footer-link li {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .footer-link li:hover {
+    color: #007bff; /* Change link color on hover */
+    
+  }
+  
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .footer-icon-main {
+    margin: 0 10px;
+  }
+  
+  .footer-icon-main img {
+    width: 30px; /* Icon size */
+    transition: transform 0.3s ease; /* Animation on hover */
+  }
+  
+  .footer-icon-main img:hover {
+    transform: scale(1.2); /* Zoom effect */
+  }
+  
+  .footercopyright {
+    margin-top: 20px;
+  }
+  
+
+  
+  .footercopyright p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #000000;
+  }
+  

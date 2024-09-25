@@ -1,0 +1,47 @@
+.Newslwtter1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40vh;
+    padding: 20px 100px 20px 100px;
+    background: linear-gradient(180deg, #e1ffea22,  #fde1ff , #e1ffea22 90%);
+}
+
+.Newslwtter1 h1{
+    font-size: 50px; 
+    font-weight: 900;
+}
+
+.Newslwtter1 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.newsinput{
+    display: flex;
+    width: 30vw;
+}
+
+input[type="email"] {
+    width: 100%; /* Full width input */
+    max-width: 400px; /* Max width to control the size */
+    padding: 10px 15px; /* Padding for better spacing */
+    font-size: 16px; /* Text size */
+    border: 2px solid #ccc; /* Border style */
+    border-radius: 5px; /* Rounded corners */
+    outline: none; /* Removes default outline */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's width */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition effect */
+  }
+  
+  input[type="email"]:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Shadow effect on focus */
+  }
+  
+  input[type="email"]::placeholder {
+    color: #888; /* Placeholder color */
+    font-style: italic; /* Optional style */
+  }
+  
